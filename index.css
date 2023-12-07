@@ -20,6 +20,7 @@ nav{
 }
 .logo{
     font-size: 22px;
+    cursor: pointer;
 }
 ul{
     display: flex;
@@ -37,11 +38,11 @@ ul li a:hover{
     color: black;
   
 }
-nav i{
+/* nav i{
     font-size: 27px;
     cursor: pointer;
     color: black;
-}
+} */
 .main{
     display: flex;
     justify-content: space-around;
@@ -66,13 +67,14 @@ nav i{
     margin-top: 22px;
     width: 140px;
     height: 40px;
-    background-color: rgb(2, 2, 80);
+    background-color: rgb(3, 136, 189);
     border: none;
     color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 .main button:hover{
-    background-color: rgb(4, 80, 245);
-    cursor: pointer;
+    background-color: rgb(6, 126, 174);
 }
 
 .special{
